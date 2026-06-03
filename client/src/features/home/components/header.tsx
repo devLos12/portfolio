@@ -16,8 +16,8 @@ export const Header = () => {
     
     return (
         <>
-            <div className='col-span-12 md:col-span-3 flex items-start justify-center'>
-                <div className="aspect-square w-full max-w-44 shadow-sm overflow-hidden rounded-full">
+            <div className='col-span-4 md:col-span-3 bg-red-100 '>
+                <div className="aspect-square w-full shadow-sm overflow-hidden  ">
                     <img
                         src={profile}
                         alt="Profile"
@@ -26,13 +26,13 @@ export const Header = () => {
                 </div>
             </div>
 
-            <div className='col-span-12 md:col-span-9'>
-                <div className='flex flex-col justify-center gap-3'>
+            <div className='col-span-8 md:col-span-9'>
+                <div className='flex flex-col justify-center gap-2'>
                     
                     <div>
                         <div className='flex justify-between items-center'>
 
-                            <p className='capitalize font-bold text-2xl md:text-3xl'>Carlos Loyola</p>  
+                            <p className='capitalize font-bold text-lg md:text-2xl'>Carlos Loyola</p>  
 
                             <Switch
                                 
@@ -44,12 +44,12 @@ export const Header = () => {
                         </div>
                         <div className='flex items-center gap-1 mt-1'>
                             <MapPin size={14}/>
-                            <p className='capitalize text-sm'>cavite, phillipines </p>
+                            <p className='capitalize text-xs md:text-sm'>cavite, phillipines </p>
                         </div>
                     </div>
 
 
-                    <div className='flex gap-2 text-lg'>
+                    <div className='flex gap-2 text-xs md:text-lg '>
                         <p className='capitalize font-medium '>software engineer</p>
                         <span className='opacity-50 '>\</span>
                         <p className='capitalize font-medium ' >gamer</p>
@@ -57,24 +57,28 @@ export const Header = () => {
 
 
                     <div className='flex flex-row gap-2'>
-                        <Button className='cursor-pointer rounded-none shadow-sm'
+                        <Button className='cursor-pointer rounded-none shadow-sm '
                         size={'sm'}
                         > 
                             <a 
                                 href="mailto:loyolacarlos162@gmail.com"
-                                className='flex gap-1 items-center'
+                                className='flex gap-1 items-center text-[10px] '
                             >
                                 <MailIcon/>
                                 Send Email
                             </a>
                         </Button>
 
-                        <Button className='cursor-pointer rounded-none shadow-sm'
-                        size={'sm'}
+                        <Button className='cursor-pointer rounded-none shadow-sm '
                         variant={'outline'}
+                        size={'sm'}
+
                         > 
-                            <Download/>
-                            Download Resume
+                            <p className='flex gap-1 items-center text-[10px] '>
+                                <Download/>
+                                Download Resume
+                            </p>
+
                         </Button>
                     </div>
                 </div>

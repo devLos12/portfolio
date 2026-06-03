@@ -119,8 +119,8 @@ export const HeroSection = () => {
                 </Card>
             </div>
 
-            <div className="col-span-12 md:col-span-4">
-                <Card className="rounded-none shadow-sm ring-0">
+            <div className="col-span-12 md:col-span-4 ">
+                <Card className="rounded-none shadow-sm ring-0 h-full">
                     <CardHeader>
                         <CardTitle>Contacts</CardTitle>
                     </CardHeader>
@@ -163,10 +163,9 @@ export const HeroSection = () => {
                     </CardContent>
                 </Card>
             </div>
+            
 
- 
-
-            <div className="col-span-12 md:col-span-8 ">
+            <div className="col-span-12 md:col-span-8 order-2 md:order-1">
                 <Card className="rounded-none ring-0 shadow-sm ">
                     <CardHeader>
                         <CardTitle>Tech Stack</CardTitle>
@@ -202,10 +201,8 @@ export const HeroSection = () => {
                 </Card>
             </div>
 
-     
-
-            <div className="col-span-12 md:col-span-4 ">
-                <Card className="rounded-none ring-0 shadow-sm">
+            <div className="col-span-12 md:col-span-4 order-1 md:order-2">
+                <Card className="rounded-none ring-0 shadow-sm h-full">
                 <CardHeader>
                     <CardTitle>Experience</CardTitle>
                 </CardHeader>
@@ -237,7 +234,7 @@ export const HeroSection = () => {
                 </Card>
             </div>
 
-            <div className="col-span-12 md:col-span-12">
+            <div className="col-span-12 md:col-span-12 order-3 md:order-4">
                 <RecentProjects/>
             </div>  
         </>
