@@ -16,8 +16,8 @@ export const Header = () => {
     
     return (
         <>
-            <div className='col-span-4 md:col-span-3 bg-red-100 '>
-                <div className="aspect-square w-full shadow-sm overflow-hidden  ">
+            <div className='col-span-4 md:col-span-3 '>
+                <div className="aspect-square w-full max-w-46 shadow-sm overflow-hidden rounded-full ">
                     <img
                         src={profile}
                         alt="Profile"

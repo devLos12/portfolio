@@ -8,11 +8,11 @@ export const HomePage = () => {
     return (
         
         <div className="container mx-auto px-4 py-8 min-h-screen w-full max-w-4xl">
-            <div className='grid grid-cols-12 gap-2 md:gap-5 '>
+            <div className='grid grid-cols-12 gap-2 md:gap-5 items-center'>
                 <Header/>
             </div>
 
-            <div className="grid grid-cols-12 gap-2 mt-2 items-stretch">
+            <div className="grid grid-cols-12 gap-2 mt-5 items-stretch">
                 <HeroSection/>
             </div>
 
