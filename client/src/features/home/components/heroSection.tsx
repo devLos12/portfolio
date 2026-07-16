@@ -94,6 +94,8 @@ export const HeroSection = () => {
 
 
 
+
+
     return (
         <>
             
@@ -105,7 +107,7 @@ export const HeroSection = () => {
                     
                     <CardContent className="font-medium " >
                         <CardDescription>
-                            Hi, I'm Carlos, a BS Information Technology student who enjoys turning ideas into functional web applications. My primary language is JavaScript, and I love building projects with React and Node.js.
+                            Hi, I'm Carlos, an Aspiring Software Engineer who enjoys turning ideas into functional web applications. My primary language is JavaScript, and I love building projects with React and Node.js.
                         </CardDescription>
 
                         <CardDescription className="mt-5">

@@ -74,10 +74,13 @@ export const Header = () => {
                         size={'sm'}
 
                         > 
-                            <p className='flex gap-1 items-center text-[10px] '>
+                            <a className='flex gap-1 items-center text-[10px] '
+                                href='/resume.pdf'
+                                download='carlos-resume.pdf'
+                            >
                                 <Download/>
                                 Download Resume
-                            </p>
+                            </a>
 
                         </Button>
                     </div>

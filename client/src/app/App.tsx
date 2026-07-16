@@ -10,7 +10,6 @@ const App = () => {
         <div className="bg-gray-50 dark:bg-black">
           <RouterProvider router={Router}/> 
         </div>
-
     </ThemeProvider>
 
   ) 
