@@ -75,7 +75,7 @@ export const Header = () => {
 
                         > 
                             <a className='flex gap-1 items-center text-[10px] '
-                                href='/resume.pdf'
+                                href='/My-Resume.pdf'
                                 download='carlos-resume.pdf'
                             >
                                 <Download/>
