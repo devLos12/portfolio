@@ -8,7 +8,6 @@ import { Switch } from '@/components/ui/switch';
 
 
 
-
 export const Header = () => {
 
     const { theme, setTheme } = useTheme();
@@ -75,7 +74,7 @@ export const Header = () => {
 
                         > 
                             <a className='flex gap-1 items-center text-[10px] '
-                                href='/My-Resume.pdf'
+                                href='/resume.pdf'
                                 download='carlos-resume.pdf'
                             >
                                 <Download/>
