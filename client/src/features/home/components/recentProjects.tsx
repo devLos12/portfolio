@@ -11,6 +11,12 @@ import { ExternalLink } from "lucide-react"
 import EFarmersThumb from "@/assets/efarmers.png"
 import FranciscoOsorioThumb from "@/assets/foish.png"
 import ERiderAppThumb from '@/assets/rider-app.png';
+import PcOutThumb from '@/assets/pc-out.png';
+import Charmingale from '@/assets/charmingale.png';
+
+
+
+
 
 type Project = {
     title: string
@@ -23,6 +29,20 @@ type Project = {
 }
 
 const projects: Project[] = [
+
+
+    {
+        title: "PC Out",
+        description:
+            "A marketplace for genuine PC parts and custom builds, connecting verified sellers with buyers.",
+        badge: "Web App",
+        badgeVariant: "default",
+        stack: ["React", "Node.js", "Express.js", "PostgreSQL"],
+        url: "",
+        thumbnail: PcOutThumb,
+    },
+
+
     {
         title: "E Farmers Hub",
         description:
@@ -33,6 +53,21 @@ const projects: Project[] = [
         url: "https://www.efarmershub.com/",
         thumbnail: EFarmersThumb,
     },
+
+
+    
+    {
+        title: "Charmingale",
+        description:
+            "A PNLE review tracker with sequential topic unlocking, study timer, streaks, reminders, and file uploads for reading materials.",
+        badge: "Mobile App",
+        badgeVariant: "outline",
+        stack: ["Expo", "Node.js", "Express.js", "PostgreSQL"],
+        url: "",
+        thumbnail: Charmingale,
+    },
+
+
 
     {
         title: "E-Rider App",
@@ -56,6 +91,8 @@ const projects: Project[] = [
         thumbnail: FranciscoOsorioThumb,
     },
 
+ 
+        
 
 ]
 

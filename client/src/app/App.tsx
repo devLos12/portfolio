@@ -7,7 +7,7 @@ const App = () => {
   return (
 
     <ThemeProvider>
-        <div className="bg-gray-50 dark:bg-black">
+        <div className="bg-white dark:bg-[#040B22]">
           <RouterProvider router={Router}/> 
         </div>
     </ThemeProvider>
